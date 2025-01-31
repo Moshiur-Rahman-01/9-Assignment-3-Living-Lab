@@ -50,29 +50,32 @@
     <header class="bg-gradient-to-b from-white to-[#EFEBE3]">
         <nav class="md:container mx-auto">
             <div class="flex justify-between items-center">
-                <div class="">
+                <!-- left part -->
+                <div class="flex-1">
                     <img class="md:my-4 hidden md:block" src="Assignment_03_Category_0002/c2-assets/logo-header.png"
                         alt="">
-                    <img class="m-2 md:hidden" src="Assignment_03_Category_0002/c2-assets/logo-footer.png" alt="">
+                    <img class="m-2 ml-4 md:hidden" src="Assignment_03_Category_0002/c2-assets/logo-footer.png" alt="">
                 </div>
+                <!-- middle part -->
                 <div class="hidden md:block">
-                    <ul class="menu  menu-horizontal px-1">
+                    <ul class="flex-1 flex justify-end gap-8 px-1 text-xl">
                         <li><a>Product</a></li>
                         <li><a>Services</a></li>
                         <li><a>Contact us</a></li>
                     </ul>
                 </div>
-                <div class="">
+                <!-- right part -->
+                <div class="flex-1 flex justify-end">
                     <div class="space-x-6 items-center hidden md:block">
                         <button><i class="fa-solid fa-magnifying-glass"></i>
 </button>
                         <button><i class="fa-solid fa-cart-shopping"></i></button>
-                        <button class="btn btn-outline border-green-500 px-7">Login</button>
+                        <button class="btn btn-outline border-green-500 px-7 text-xl">Login</button>
                         <button class="btn border-none btn-secondary bg-[#179800] px-7">Register</button>
                     </div>
                     <!-- dropdown responsive -->
                     <div class="dropdown md:hidden">
-                        <div tabindex="0" role="button" class="btn btn-ghost ">
+                        <div tabindex="0" role="button" class="btn btn-ghost">
                             <i class="fa-solid fa-bars text-3xl text-green-500"></i>
                         </div>
                         <ul tabindex="0"
@@ -89,7 +92,7 @@
 
 
         <!-- banner section -->
-        <section class="text-center mt-16 mb-24 md:mb-32">
+        <section class="text-center mt-16 md:mt-28 mb-24 md:mb-32 m-4 md:m-0">
             <h1 class="font-semibold text-4xl md:text-6xl leading-normal mb-5">Freshness
                 <span class="text-[#179800]">You Can <br> Count</span>
                 On, Prices You’ll Love!
@@ -97,7 +100,7 @@
             <p class="text-xl mb-3">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>
                 staples, we’ve got you covered every day!</p>
             <div class="flex justify-center items-center">
-                <img src="Assignment_03_Category_0002/c2-assets/hero-vegetables.png" alt="">
+                <img class="animate-bounce duration-150" src="Assignment_03_Category_0002/c2-assets/hero-vegetables.png" alt="">
             </div>
         </section>
     </header>
@@ -176,9 +179,9 @@
 
 <div class="md:flex gap-6 m-4 md:m-0 space-y-5 md:space-y-0">
 <div class="w-[100%] md:w-[30%] h-[400px] md:h-auto relative bg-gradient-to-b from-[#53DB3A] to-white pt-14 pl-7 rounded-xl shadow-md">
-<h1 class="font-bold text-white text-2xl mb-7">30% off</h1>
+<h1 class="adlam-display  text-white text-3xl mb-7">30% off</h1>
 <p class="mb-4">Discover a world of treats, toys, and essentials handpicked for</p>
-<button class="btn px-10 bg-white text-2xl font-normal">Buy Now</button>
+<button class="btn px-6 bg-white text-2xl font-normal">Buy Now</button>
 
 <div class="absolute bottom-0 right-0">
 <img class="" src="Assignment_03_Category_0002/c2-assets/vegetable-offer.png" alt="">
@@ -187,12 +190,12 @@
 </div>
 
 <!-- choto choto  -->
-<div class="grid w-full md:w-[70%] grid-cols-2 grid-rows-4 md:grid-cols-3 md:grid-rows-3 gap-7">
+<div class="grid w-full md:w-[70%] grid-cols-2 md:grid-cols-3 md:gap-6 gap-3">
 <!-- card 1 -->
-<div class="bg-white rounded-xl p-3 gap-4 flex ">
-<img class="bg-[#EFEBE3] rounded-xl p-5" src="Assignment_03_Category_0002/c2-assets/onion.png" alt="">
+<div class="bg-white rounded-xl p-3 gap-2 md:gap-4 flex">
+<img class="bg-[#EFEBE3] rounded-xl p-3 md:p-5" src="Assignment_03_Category_0002/c2-assets/onion.png" alt="">
 <div class="space-y-3 pt-2">
-<div class="flex gap-3">
+<div class="flex gap-2">
 <img src="Assignment_03_Category_0002/c2-assets/Vector.png" alt="">
 <h1 >4.5</h1>
 </div>
@@ -202,21 +205,21 @@
 </div>
 
 <!-- card 2 -->
-<div class="bg-white rounded-xl p-3 gap-4 flex ">
-    <img class="bg-[#EFEBE3] rounded-xl p-5" src="Assignment_03_Category_0002/c2-assets/tomato.png" alt="">
+<div class="bg-white rounded-xl p-3 gap-2 md:gap-4 flex">
+    <img class="bg-[#EFEBE3] rounded-xl p-3 md:p-5" src="Assignment_03_Category_0002/c2-assets/tomato.png" alt="">
     <div class="space-y-3 pt-2">
         <div class="flex gap-3">
             <img src="Assignment_03_Category_0002/c2-assets/Vector.png" alt="">
             <h1>4.5</h1>
         </div>
         <h1 class="font-semibold text-xl">Tomato 500 g</h1>
-        <h1 class="font-semibold text-xl">$39.99</h1>
+     <h   1 class="font-semibold text-xl">$39.99</h1>
     </div>
 </div>
 
 <!-- card 3 -->
-<div class="bg-white rounded-xl p-3 gap-4 flex ">
-    <img class="bg-[#EFEBE3] rounded-xl p-5" src="Assignment_03_Category_0002/c2-assets/potato.png" alt="">
+<div class="bg-white rounded-xl p-3 gap-2 md:gap-4 flex ">
+    <img class="bg-[#EFEBE3] rounded-xl p-3 md:p-5" src="Assignment_03_Category_0002/c2-assets/potato.png" alt="">
     <div class="space-y-3 pt-2">
         <div class="flex gap-3">
             <img src="Assignment_03_Category_0002/c2-assets/Vector.png" alt="">
@@ -228,8 +231,8 @@
 </div>
 
 <!-- card 4 -->
-<div class="bg-white rounded-xl p-3 gap-4 flex ">
-    <img class="bg-[#EFEBE3] rounded-xl p-5" src="Assignment_03_Category_0002/c2-assets/tomato.png" alt="">
+<div class="bg-white rounded-xl p-3 gap-2 md:gap-4 flex ">
+    <img class="bg-[#EFEBE3] rounded-xl p-3 md:p-5" src="Assignment_03_Category_0002/c2-assets/tomato.png" alt="">
     <div class="space-y-3 pt-2">
         <div class="flex gap-3">
             <img src="Assignment_03_Category_0002/c2-assets/Vector.png" alt="">
@@ -241,8 +244,8 @@
 </div>
 
 <!-- card 5 -->
-<div class="bg-white rounded-xl p-3 gap-4 flex ">
-    <img class="bg-[#EFEBE3] rounded-xl p-5" src="Assignment_03_Category_0002/c2-assets/onion.png" alt="">
+<div class="bg-white rounded-xl p-3 gap-2 md:gap-4 flex ">
+    <img class="bg-[#EFEBE3] rounded-xl p-3 md:p-5" src="Assignment_03_Category_0002/c2-assets/onion.png" alt="">
     <div class="space-y-3 pt-2">
         <div class="flex gap-3">
             <img src="Assignment_03_Category_0002/c2-assets/Vector.png" alt="">
@@ -254,8 +257,8 @@
 </div>
 
 <!-- card 6 -->
-<div class="bg-white rounded-xl p-3 gap-4 flex ">
-    <img class="bg-[#EFEBE3] rounded-xl p-5" src="Assignment_03_Category_0002/c2-assets/tomato.png" alt="">
+<div class="bg-white rounded-xl p-3 gap-2 md:gap-4 flex ">
+    <img class="bg-[#EFEBE3] rounded-xl p-3 md:p-5" src="Assignment_03_Category_0002/c2-assets/tomato.png" alt="">
     <div class="space-y-3 pt-2">
         <div class="flex gap-3">
             <img src="Assignment_03_Category_0002/c2-assets/Vector.png" alt="">
@@ -267,8 +270,8 @@
 </div>
 
 <!-- card 7 -->
-<div class="bg-white rounded-xl p-3 gap-4 flex ">
-    <img class="bg-[#EFEBE3] rounded-xl p-5" src="Assignment_03_Category_0002/c2-assets/onion.png" alt="">
+<div class="bg-white rounded-xl p-3 gap-2 md:gap-4 flex ">
+    <img class="bg-[#EFEBE3] rounded-xl p-3 md:p-5" src="Assignment_03_Category_0002/c2-assets/onion.png" alt="">
     <div class="space-y-3 pt-2">
         <div class="flex gap-3">
             <img src="Assignment_03_Category_0002/c2-assets/Vector.png" alt="">
@@ -280,8 +283,8 @@
 </div>
 
 <!-- card 8 -->
-<div class="bg-white rounded-xl p-3 gap-4 flex ">
-    <img class="bg-[#EFEBE3] rounded-xl p-5" src="Assignment_03_Category_0002/c2-assets/potato.png" alt="">
+<div class="bg-white rounded-xl p-3 gap-2 md:gap-4 flex ">
+    <img class="bg-[#EFEBE3] rounded-xl p-3 md:p-5" src="Assignment_03_Category_0002/c2-assets/potato.png" alt="">
     <div class="space-y-3 pt-2">
         <div class="flex gap-3">
             <img src="Assignment_03_Category_0002/c2-assets/Vector.png" alt="">
@@ -294,8 +297,8 @@
 
 <!-- card 9 -->
 <div class="hidden md:block">
-    <div class="bg-white  rounded-xl p-3 gap-4 flex ">
-        <img class="bg-[#EFEBE3] rounded-xl p-5" src="Assignment_03_Category_0002/c2-assets/potato.png" alt="">
+    <div class="bg-white  rounded-xl p-3 gap-2 md:gap-4 flex ">
+        <img class="bg-[#EFEBE3] rounded-xl p-3 md:p-5" src="Assignment_03_Category_0002/c2-assets/potato.png" alt="">
         <div class="space-y-3 pt-2">
             <div class="flex gap-3">
                 <img src="Assignment_03_Category_0002/c2-assets/Vector.png" alt="">
@@ -324,8 +327,8 @@
                 <div class="flex justify-between bg-[#115414] rounded-xl w-[60%] max-sm:w-[100%]">
                     <div class="p-7">
                         <img class="mb-4" src="Assignment_03_Category_0002/c2-assets/dawat-logo.png" alt="">
-                        <p class="bg-[#63B76D] text-white text-center py-4 rounded-xl  mb-7 text-sm md:text-base">Cook
-                            Exotic Dishes</p>
+                        <button class="bg-[#63B76D] text-white px-4 md:px-8 py-4 rounded-xl  mb-7 text-sm md:text-base">Cook
+                            Exotic Dishes</button>
                         <h1 class="text-lg md:text-4xl text-white">UP to
                             <span class="font-bold">20% OFF</span>
                         </h1>
@@ -338,8 +341,8 @@
                 <div class="flex justify-between bg-blue-950 rounded-xl w-[40%] max-sm:w-[100%]">
                     <div class="p-7 pt-3">
                         <img class="mb-4" src="Assignment_03_Category_0002/c2-assets/india-gate-logo.png" alt="">
-                        <p class="bg-blue-900 text-white  text-center py-4 rounded-xl  mb-7 text-sm md:text-base">
-                            World’s No.1 Rice</p>
+                        <button class="bg-blue-900 text-white py-4 px-8 rounded-xl  mb-7 text-sm md:text-base">
+                            World’s No.1 Rice</button>
                         <h1 class="text-lg md:text-4xl text-white">UP to
                             <span class="font-bold">20% OFF</span>
                         </h1>
@@ -371,7 +374,7 @@
 
 
 
-            <section class="pt-[450px] md:pt-52 grid md:grid-cols-3 grid-cols-1 space-y-7 md:space-y-0">
+            <section class="pt-[320px] md:pt-52 grid md:grid-cols-3 grid-cols-1 space-y-7 md:space-y-0">
                 <div class="space-y-2">
                     <img src="Assignment_03_Category_0002/c2-assets/logo-footer.png" alt="">
                     <p class="text-white">Discover a world of treats, toys, and essentials handpicked for your furry
